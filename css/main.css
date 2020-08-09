@@ -96,11 +96,13 @@ textarea {
    body {
       font-family: 'Merriweather', serif;
       color: #737373;
+      padding-top: 104px;
     }
 
    h1{
       font-size: 2rem;
       font-weight: bold;
+      text-shadow: 1px 2px 1px #f2f2f2;
    }
 
    h2 {
@@ -189,9 +191,7 @@ textarea {
   top: 0;
   }
   
-  body{
-    padding-top: 74px;
-  }
+ 
 
  /********************************* Portfolio Section ***********************************/
 
@@ -207,7 +207,7 @@ textarea {
  }
 
  hr{
-   border: 1px solid #f2b705;
+   border-top: 2px solid #f2b705;
    border-radius: 5px;
  }
 
@@ -244,6 +244,7 @@ textarea {
  }
  .social-icons img {
    margin-right: 10px;
+   margin-left: 10px;
    width: 5%;
  }
 
@@ -338,6 +339,7 @@ textarea {
 
 @media only screen and (min-width: 768px) 
 {
+
   
 
   /************************ Portfolio Section ******************/
@@ -358,7 +360,8 @@ textarea {
   }
 
 
-  /*************************** About Section ***********************/
+  /*********@media only screen and (min-width: 1200px) {
+*********/
 #about {
   max-width:70%;
   margin: 0 auto;
