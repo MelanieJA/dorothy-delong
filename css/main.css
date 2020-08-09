@@ -336,7 +336,8 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) 
+{
   
 
   /************************ Portfolio Section ******************/
